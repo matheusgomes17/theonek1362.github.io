@@ -121,7 +121,7 @@ input:focus, textarea:focus, button:focus {
   margin: 1rem auto 0 auto;
   width: 69%;
   font-family: Helvetica, Arial, sans-serif;
-  color: #71675b;
+  color: #ffffff;
   font-size: 1em;
   font-weight: 400;
   text-align: center;
@@ -184,11 +184,15 @@ h2, h3 {
 -------------------------------------------------------------------*/
 
 .pattern {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55)), url(../img/dark_wall.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55)), url(../img/bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .pattern-dark {
-  background-image: url(../img/dark_leather.png);
+  background-image: url(../img/bg2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .box {
@@ -774,6 +778,7 @@ header {
 
 .features-img {
   width: 100%;
+  height: 300px;
   border: 1px solid;
   opacity: 0.5;
   transition: all 0.5s;
@@ -812,12 +817,12 @@ header {
 }
 
 .features-item:hover .features-p {
-  color: #9d9280;
+  color: #ffffff;
 }
 
 .features-p {
   font-family: Helvetica, Arial, sans-serif;
-  color: #71675b;
+  color: #ffffff;
   font-size: 0.85em;
   text-align: left;
   transition: all 0.5s;
@@ -1592,6 +1597,9 @@ ul#model-feats {
 -------------------------------------------------------------------*/
 
 .contact {
+  background-image: url(../img/contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   overflow-x: hidden;
   padding-top: 1rem;
   padding-bottom: 4rem;
@@ -1747,6 +1755,9 @@ ul#model-feats {
 -------------------------------------------------------------------*/
 
 .footer {
+  background-image: url(../img/dark_wall.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   font-family: Helvetica, Arial, sans-serif;
   color: #c4ae78 !important;
   padding-top: 4rem;
