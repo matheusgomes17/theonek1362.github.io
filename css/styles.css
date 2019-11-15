@@ -1479,7 +1479,7 @@ ul#model-feats {
   margin: 15px 15px 0 0;
   border: 1px solid #752b1a;
   height: auto;
-  width: 50%;
+  /* width: 50%; */
   display: inline-block;
   box-shadow: 0 0 10px #000000;
 }
